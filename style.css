@@ -1,0 +1,257 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ebd5b0;
+
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 0px 0px;
+}
+.header .logo {
+  font-size: 20pt;
+  font-family: sriracha, cursive;
+  color: #000;
+  margin-left: 20pt;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 15pt;
+}
+
+.navbar a {
+  color: rgb(67, 57, 45);
+  align-items: center;
+  font-size: 18pt;
+  padding: 14pt 16pt;
+}
+.navbar a:hover {
+  background: rgb(67, 57, 45);
+  border-radius: 4pt;
+  border: none;
+  color: whitesmoke;
+  box-shadow: 2pt 2pt 2pt 2pt rgb(178, 102, 102);
+}
+.btn {
+  background-color: rgb(141, 109, 69);
+  border: none;
+  color: white;
+  padding: 10px 10px 5px 10px;
+  margin: 20px 20px 20px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 6%;
+  position: fixed;
+  text-align: center;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 200pt;
+  background-size: cover;
+  background-image: url(https://thumbs.dreamstime.com/z/image-wood-texture-wooden-background-suitable-any-design-image-wood-texture-wooden-background-pattern-119800482.jpg=80);
+}
+h1 {
+  direction: rtl;
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(67, 57, 45);
+}
+.paragraph1 {
+  background-color: antiquewhite;
+}
+.paragraph1 p {
+  text-align: center;
+  font-size: 17pt;
+  padding: 20pt 20pt 20pt 20pt;
+}
+h3 {
+  text-align: center;
+  font-size: 33px;
+  color: rgb(67, 57, 45);
+  margin: 0px 0px 0px 0px;
+}
+.container,
+.container2 {
+  background-color: #ebd5b0;
+  display: flex;
+  padding-top: 20pt;
+  padding-bottom: 20pt;
+  align-items: center;
+}
+
+.aboutUs {
+  display: flex;
+  background-color: antiquewhite;
+  padding: 20pt 20pt 20pt 20pt;
+  margin: 0;
+}
+.aboutUsText p {
+  font-size: 18pt;
+  text-align: right;
+  padding: 0 30pt 0 30pt;
+}
+.aboutUs img {
+  width: fit-content;
+  max-width: 100%;
+  height: fit-content;
+  border-radius: 20pt;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+}
+.about .aboutText {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  padding: 20pt 20pt 0 20pt;
+  background-color: antiquewhite;
+}
+.about p {
+  align-items: center;
+  direction: rtl;
+  font-size: 15pt;
+}
+.about .aboutPics {
+  display: flex;
+  background-color: #ebd5b0;
+  flex-direction: column;
+  flex-basis: 50%;
+  margin: 0%;
+}
+.about .container3,
+.container4,
+.container5 {
+  display: flex;
+  margin: 0%;
+}
+.about img {
+  width: 40%;
+  padding: 20pt 20pt 20pt 20pt;
+  border-radius: 15%;
+}
+.footer {
+  text-align: center;
+  direction: rtl;
+
+  background-color: #ebd5b0;
+  color: rgb(122, 77, 77);
+  font-size: 30px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 0px 0px;
+}
+.contactBlock {
+  padding: 20px;
+  width: 300px;
+}
+input {
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  padding: 5px 5px 5px 5px;
+  font-size: 20px;
+  color: rgb(132, 55, 55);
+  border: 2px solid rgb(132, 55, 55);
+  border-radius: 4px;
+  cursor: pointer;
+}
+button {
+  width: 50%;
+  font-size: 25px;
+  margin: 10px 0px 10px 0px;
+  font-weight: bold;
+  color: rgb(132, 55, 55);
+  border: 2px solid rgb(132, 55, 55);
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgb(141, 109, 69);
+}
+textarea {
+  width: 100%;
+  height: 100px;
+  margin: 10px 0px 10px 0px;
+  padding: 5px 5px 5px 5px;
+  font-size: 20px;
+  color: rgb(132, 55, 55);
+  border: 2px solid rgb(132, 55, 55);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50pt;
+  font-weight: 800;
+  color: rgb(67, 57, 45);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20pt 20pt 20pt 20pt;
+}
+
+h4 {
+  text-align: right;
+}
+.h5 {
+  font-size: 15px;
+}
+
+a {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: hsl(0, 3%, 6%);
+  font-weight: 800px;
+  margin: 10px 20px 0px 20px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+.card,
+.card5,
+.card6 {
+  width: 20%;
+}
+.card1 {
+  flex: 1;
+  order: 1;
+}
+.card2 {
+  flex: 1;
+  order: 2;
+}
+.card3 {
+  flex: 1;
+  order: 3;
+}
+
+.card21 {
+  flex: 1;
+  order: 1;
+}
+.card22 {
+  flex: 1;
+  order: 2;
+}
+.card23 {
+  flex: 1;
+  order: 3;
+}
+.container img,
+.container2 img {
+  width: 80%;
+  align-items: center;
+  padding: 0 30pt 0 30pt;
+  border-radius: 10%;
+}
